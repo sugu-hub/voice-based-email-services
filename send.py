@@ -38,9 +38,9 @@ def send_email(receiver, subject, message):
     server = smtplib.SMTP('smtp.gmail.com', 587)
     server.starttls()
     # Make sure to give app access in your Google account
-    server.login('projectmini25@gmail.com', 'miniproject25')
+    server.login('email id', 'password')
     email = EmailMessage()
-    email['From'] = 'projectmini25@gmail.com'
+    email['From'] = 'email id'
     email['To'] = receiver
     email['Subject'] = subject
     email.set_content(message)
@@ -48,11 +48,7 @@ def send_email(receiver, subject, message):
 
 
 email_list = {
-    'pqr': 'projectmini25@gmail.com',
-    'bts': 'ammulu24682@gmail.com',
-    'abc': 'sarithachinnari981@gmail.com',
-    'lisa': 'divya060814@gmail.com',
-    'xyz': 'sugureshwar.d@gmail.com'
+    #give the list of email ids to whom you want send mails
 }
 
 
