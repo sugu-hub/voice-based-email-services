@@ -41,9 +41,9 @@ import traceback
 import time
 import email
 
-ORG_EMAIL = "@gmail.com"
-FROM_EMAIL = "projectmini25" + ORG_EMAIL
-FROM_PWD = "miniproject25"
+ORG_EMAIL = "email type"
+FROM_EMAIL = "username" + ORG_EMAIL
+FROM_PWD = "password"
 SMTP_SERVER = "imap.gmail.com"
 SMTP_PORT = 993
 mail = imaplib.IMAP4_SSL(SMTP_SERVER)
